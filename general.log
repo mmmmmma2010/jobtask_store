@@ -1,0 +1,1320 @@
+2022-07-23 10:03:27,514 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 10:57:15,881 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/dev.py changed, reloading.
+2022-07-23 10:57:16,831 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 10:57:19,062 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/dev.py changed, reloading.
+2022-07-23 10:57:20,071 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 10:57:34,439 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/dev.py changed, reloading.
+2022-07-23 10:57:36,438 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 11:06:24,167 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 11:09:45,609 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 11:09:49,861 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2022-07-23 11:09:50,545 (WARNING) - django.request - Bad Request: /
+2022-07-23 11:10:08,747 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/dev.py changed, reloading.
+2022-07-23 11:10:10,493 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 11:10:12,093 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2022-07-23 11:10:12,285 (WARNING) - django.request - Bad Request: /
+2022-07-23 11:10:24,117 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/dev.py changed, reloading.
+2022-07-23 11:10:48,570 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 11:10:49,457 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2022-07-23 11:10:49,761 (WARNING) - django.request - Bad Request: /
+2022-07-23 11:10:54,866 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2022-07-23 11:10:55,034 (WARNING) - django.request - Bad Request: /
+2022-07-23 11:11:02,934 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/dev.py changed, reloading.
+2022-07-23 11:11:04,362 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 11:11:06,110 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/dev.py changed, reloading.
+2022-07-23 11:11:07,807 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 11:11:08,738 (WARNING) - django.request - Not Found: /
+2022-07-23 11:17:44,176 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 11:42:10,992 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 12:00:19,756 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 12:00:23,794 (WARNING) - django.request - Not Found: /
+2022-07-23 12:02:17,947 (ERROR) - django.request - Internal Server Error: /auth/users/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/renderers.py", line 655, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/renderers.py", line 554, in get_raw_data_form
+    serializer = view.get_serializer()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/djoser/views.py", line 98, in get_serializer_class
+    return settings.SERIALIZERS.user_create
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/djoser/conf.py", line 19, in __getattribute__
+    val = import_string(val)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/utils/module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/utils/module_loading.py", line 15, in cached_import
+    import_module(module_path)
+  File "/usr/lib64/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'account.serializers'
+2022-07-23 12:04:06,198 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 12:04:11,370 (ERROR) - django.request - Internal Server Error: /auth/users/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/renderers.py", line 655, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/renderers.py", line 554, in get_raw_data_form
+    serializer = view.get_serializer()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/djoser/views.py", line 98, in get_serializer_class
+    return settings.SERIALIZERS.user_create
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/djoser/conf.py", line 19, in __getattribute__
+    val = import_string(val)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/utils/module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/utils/module_loading.py", line 15, in cached_import
+    import_module(module_path)
+  File "/usr/lib64/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/mo/for_test/python/job_task/account/serializers.py", line 1, in <module>
+    from store.models import Customer
+ImportError: cannot import name 'Customer' from 'store.models' (/home/mo/for_test/python/job_task/store/models/__init__.py)
+2022-07-23 12:04:58,840 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 12:05:09,413 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 12:06:02,952 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/account/serializers.py changed, reloading.
+2022-07-23 12:06:04,052 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 12:06:08,806 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 12:06:52,124 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 12:06:53,905 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 12:08:55,103 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 12:08:56,558 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 12:09:05,182 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 12:09:42,874 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 12:11:20,335 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 12:12:11,014 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 12:12:36,275 (WARNING) - django.request - Method Not Allowed: /auth/jwt/create/
+2022-07-23 12:21:37,082 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 12:22:32,754 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 12:22:40,490 (WARNING) - django.request - Bad Request: /auth/users/
+2022-07-23 12:22:59,450 (ERROR) - django.request - Internal Server Error: /auth/users/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/djoser/views.py", line 144, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/templated_mail/mail.py", line 68, in send
+    self.render()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/templated_mail/mail.py", line 60, in render
+    context = make_context(self.get_context_data(), request=self.request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/djoser/email.py", line 18, in get_context_data
+    context["url"] = settings.ACTIVATION_URL.format(**context)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/utils/functional.py", line 259, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'Settings' object has no attribute 'ACTIVATION_URL'
+2022-07-23 12:24:34,765 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 12:24:36,205 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 12:24:41,949 (WARNING) - django.request - Bad Request: /auth/users/
+2022-07-23 12:25:04,209 (ERROR) - django.request - Internal Server Error: /auth/users/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/djoser/views.py", line 144, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/templated_mail/mail.py", line 78, in send
+    super(BaseEmailMessage, self).send(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 80, in open
+    self.connection = self.connection_class(
+  File "/usr/lib64/python3.9/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.9/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.9/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib64/python3.9/socket.py", line 823, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib64/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+2022-07-23 13:31:14,551 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 13:31:59,394 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 13:32:01,040 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 13:32:55,984 (WARNING) - django.request - Bad Request: /auth/users/
+2022-07-23 13:33:14,422 (ERROR) - django.request - Internal Server Error: /auth/users/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/djoser/views.py", line 144, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/templated_mail/mail.py", line 78, in send
+    super(BaseEmailMessage, self).send(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 80, in open
+    self.connection = self.connection_class(
+  File "/usr/lib64/python3.9/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.9/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.9/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib64/python3.9/socket.py", line 823, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib64/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+2022-07-23 13:43:09,071 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 13:43:10,612 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 13:43:14,308 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 13:43:15,570 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 13:43:26,927 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 13:43:28,371 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 13:43:39,242 (WARNING) - django.request - Bad Request: /auth/users/
+2022-07-23 13:43:54,012 (ERROR) - django.request - Internal Server Error: /auth/users/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/djoser/views.py", line 144, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/templated_mail/mail.py", line 78, in send
+    super(BaseEmailMessage, self).send(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 80, in open
+    self.connection = self.connection_class(
+  File "/usr/lib64/python3.9/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.9/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.9/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib64/python3.9/socket.py", line 823, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib64/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+2022-07-23 14:09:49,844 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 14:09:53,017 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 14:17:13,979 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 14:17:15,084 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 14:19:26,719 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 14:19:28,990 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 15:02:04,066 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 15:02:43,587 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 15:07:24,074 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/dev.py changed, reloading.
+2022-07-23 15:09:20,277 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 15:09:56,309 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 15:09:57,620 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 15:09:59,388 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 15:10:00,826 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 15:10:02,641 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 15:10:04,284 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 15:10:09,180 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/dev.py changed, reloading.
+2022-07-23 15:10:10,684 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 15:10:19,730 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/dev.py changed, reloading.
+2022-07-23 15:10:21,379 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 15:10:31,368 (WARNING) - django.request - Not Found: /
+2022-07-23 15:10:46,646 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 15:11:01,391 (ERROR) - django.request - Internal Server Error: /auth/users/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/djoser/views.py", line 144, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/templated_mail/mail.py", line 78, in send
+    super(BaseEmailMessage, self).send(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 80, in open
+    self.connection = self.connection_class(
+  File "/usr/lib64/python3.9/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.9/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.9/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib64/python3.9/socket.py", line 823, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib64/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+2022-07-23 15:14:57,976 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/dev.py changed, reloading.
+2022-07-23 15:14:59,900 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 15:15:18,452 (WARNING) - django.request - Bad Request: /auth/users/
+2022-07-23 15:15:40,950 (ERROR) - django.request - Internal Server Error: /auth/users/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/djoser/views.py", line 144, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/templated_mail/mail.py", line 78, in send
+    super(BaseEmailMessage, self).send(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 80, in open
+    self.connection = self.connection_class(
+  File "/usr/lib64/python3.9/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.9/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.9/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib64/python3.9/socket.py", line 823, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib64/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+2022-07-23 15:18:07,596 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/dev.py changed, reloading.
+2022-07-23 15:18:08,881 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 15:22:05,927 (WARNING) - django.request - Not Found: /
+2022-07-23 15:22:14,772 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 15:22:16,662 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 15:22:37,312 (WARNING) - django.request - Bad Request: /auth/users/
+2022-07-23 15:22:49,484 (ERROR) - django.request - Internal Server Error: /auth/users/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/djoser/views.py", line 144, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/templated_mail/mail.py", line 78, in send
+    super(BaseEmailMessage, self).send(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 80, in open
+    self.connection = self.connection_class(
+  File "/usr/lib64/python3.9/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.9/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.9/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib64/python3.9/socket.py", line 823, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib64/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+2022-07-23 15:23:42,840 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/dev.py changed, reloading.
+2022-07-23 15:23:44,760 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 15:23:51,934 (WARNING) - django.request - Bad Request: /auth/users/
+2022-07-23 15:24:04,052 (ERROR) - django.request - Internal Server Error: /auth/users/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/djoser/views.py", line 144, in perform_create
+    settings.EMAIL.activation(self.request, context).send(to)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/templated_mail/mail.py", line 78, in send
+    super(BaseEmailMessage, self).send(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 80, in open
+    self.connection = self.connection_class(
+  File "/usr/lib64/python3.9/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib64/python3.9/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib64/python3.9/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib64/python3.9/socket.py", line 823, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib64/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+2022-07-23 15:30:03,362 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/dev.py changed, reloading.
+2022-07-23 15:30:05,799 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 15:30:07,792 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/dev.py changed, reloading.
+2022-07-23 15:30:09,544 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 15:30:39,430 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 15:32:01,273 (WARNING) - django.request - Bad Request: /auth/users/
+2022-07-23 16:20:36,439 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:20:40,226 (WARNING) - django.request - Not Found: /activate/Mg/b90ttp-8b7287a97916fc2714166800c5deaf58
+2022-07-23 16:26:22,256 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/urls.py changed, reloading.
+2022-07-23 16:26:24,284 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:26:42,519 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/urls.py changed, reloading.
+2022-07-23 16:26:44,218 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:26:45,766 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/urls.py changed, reloading.
+2022-07-23 16:26:47,016 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:26:55,666 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/urls.py changed, reloading.
+2022-07-23 16:26:56,985 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:26:59,443 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/urls.py changed, reloading.
+2022-07-23 16:27:00,498 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:27:03,159 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/urls.py changed, reloading.
+2022-07-23 16:27:04,310 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:27:08,821 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/urls.py changed, reloading.
+2022-07-23 16:27:09,951 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:27:21,815 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/urls.py changed, reloading.
+2022-07-23 16:27:23,177 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:27:24,815 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/urls.py changed, reloading.
+2022-07-23 16:27:26,409 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:27:32,283 (WARNING) - django.request - Not Found: /activate/Mg/b90ttp-8b7287a97916fc2714166800c5deaf58
+2022-07-23 16:27:49,424 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/urls.py changed, reloading.
+2022-07-23 16:27:50,639 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:27:52,379 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/urls.py changed, reloading.
+2022-07-23 16:27:53,773 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:27:54,962 (WARNING) - django.request - Unauthorized: /auth/users/activate/
+2022-07-23 16:28:08,850 (WARNING) - django.request - Unauthorized: /auth/users/activate/
+2022-07-23 16:28:35,991 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/urls.py changed, reloading.
+2022-07-23 16:28:37,716 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:29:02,168 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 16:29:03,619 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:29:08,061 (WARNING) - django.request - Not Found: /activate/MQ/b90trc-4361cebbabd4f1a7d4ff2d51aac5d2ab
+2022-07-23 16:29:16,806 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 16:29:19,665 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 16:29:42,792 (WARNING) - django.request - Bad Request: /auth/users/
+2022-07-23 16:30:32,461 (WARNING) - django.request - Method Not Allowed: /auth/jwt/create/
+2022-07-23 16:30:39,483 (WARNING) - django.request - Unauthorized: /auth/jwt/create/
+2022-07-23 16:30:48,802 (WARNING) - django.request - Not Found: /auth/usersactivate/Mw/b90whs-ca9480d8633694345397eebd5c05ca0c
+2022-07-23 16:31:07,345 (WARNING) - django.request - Unauthorized: /auth/users/activate/
+2022-07-23 16:31:24,433 (WARNING) - django.request - Unauthorized: /auth/jwt/create/
+2022-07-23 16:32:13,553 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/settings/common.py changed, reloading.
+2022-07-23 16:32:15,632 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:32:27,025 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 16:33:12,819 (WARNING) - django.request - Unauthorized: /auth/jwt/create/
+2022-07-23 16:33:29,300 (WARNING) - django.request - Unauthorized: /auth/users/activate/
+2022-07-23 16:33:43,414 (WARNING) - django.request - Unauthorized: /auth/jwt/create/
+2022-07-23 16:33:52,196 (WARNING) - django.request - Unauthorized: /auth/jwt/create/
+2022-07-23 16:35:02,129 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:36:32,846 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/account/views.py changed, reloading.
+2022-07-23 16:36:34,676 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:36:48,550 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/account/views.py changed, reloading.
+2022-07-23 16:36:49,957 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:36:51,791 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/account/views.py changed, reloading.
+2022-07-23 16:36:53,503 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:36:55,666 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/account/views.py changed, reloading.
+2022-07-23 16:36:57,268 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:37:22,599 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/ecommerce/urls.py changed, reloading.
+2022-07-23 16:37:24,681 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:37:43,050 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/account/views.py changed, reloading.
+2022-07-23 16:37:44,470 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:37:47,906 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/account/views.py changed, reloading.
+2022-07-23 16:37:49,651 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:37:52,129 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/account/views.py changed, reloading.
+2022-07-23 16:37:53,491 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:37:55,909 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/account/views.py changed, reloading.
+2022-07-23 16:37:57,049 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:38:01,509 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/account/views.py changed, reloading.
+2022-07-23 16:38:02,936 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:38:04,290 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/account/views.py changed, reloading.
+2022-07-23 16:38:05,437 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:38:10,248 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/account/views.py changed, reloading.
+2022-07-23 16:38:11,627 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:38:15,489 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/account/views.py changed, reloading.
+2022-07-23 16:38:16,774 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:38:19,601 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/account/views.py changed, reloading.
+2022-07-23 16:38:20,855 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:38:27,641 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/account/views.py changed, reloading.
+2022-07-23 16:38:28,725 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:39:38,948 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 16:40:25,132 (WARNING) - django.request - Method Not Allowed: /auth/jwt/create/
+2022-07-23 18:36:29,688 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 18:36:30,953 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 18:36:33,828 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 18:36:35,150 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 18:36:44,226 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 18:36:45,279 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 18:37:27,019 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 18:37:28,213 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 18:38:34,593 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 18:38:35,771 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 18:41:44,181 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 18:41:45,347 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 18:56:13,836 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 18:57:12,460 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 18:57:20,114 (WARNING) - django.request - Not Found: /
+2022-07-23 18:58:17,078 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/urls.py changed, reloading.
+2022-07-23 18:58:18,433 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 18:58:24,073 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/urls.py changed, reloading.
+2022-07-23 18:58:25,432 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 18:58:28,976 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/urls.py changed, reloading.
+2022-07-23 18:58:30,232 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 18:58:43,345 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/urls.py changed, reloading.
+2022-07-23 18:58:44,668 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 18:58:56,366 (WARNING) - django.request - Unauthorized: /store/customers/
+2022-07-23 18:59:23,186 (ERROR) - django.request - Internal Server Error: /store/customers/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 507, in to_representation
+    for field in fields:
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/utils/functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `phone` is not valid for model `Customer`.
+2022-07-23 19:00:00,798 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/serializers/customer_serializer.py changed, reloading.
+2022-07-23 19:00:02,102 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:00:08,976 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/serializers/customer_serializer.py changed, reloading.
+2022-07-23 19:00:10,540 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:00:13,051 (ERROR) - django.request - Internal Server Error: /store/customers/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 507, in to_representation
+    for field in fields:
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/utils/functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `user_phone` is not valid for model `Customer`.
+2022-07-23 19:00:27,446 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/serializers/customer_serializer.py changed, reloading.
+2022-07-23 19:00:29,017 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:00:30,397 (ERROR) - django.request - Internal Server Error: /store/customers/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 507, in to_representation
+    for field in fields:
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/utils/functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `user__phone` is not valid for model `Customer`.
+2022-07-23 19:00:56,995 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/serializers/customer_serializer.py changed, reloading.
+2022-07-23 19:00:58,951 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:01:02,063 (ERROR) - django.request - Internal Server Error: /store/customers/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 507, in to_representation
+    for field in fields:
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/utils/functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `user__numbers` is not valid for model `Customer`.
+2022-07-23 19:01:47,419 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/serializers/customer_serializer.py changed, reloading.
+2022-07-23 19:01:49,422 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:01:52,334 (ERROR) - django.request - Internal Server Error: /store/customers/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 507, in to_representation
+    for field in fields:
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/utils/functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `user_numbers` is not valid for model `Customer`.
+2022-07-23 19:02:53,279 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/serializers/customer_serializer.py changed, reloading.
+2022-07-23 19:02:54,528 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:02:57,345 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/serializers/customer_serializer.py changed, reloading.
+2022-07-23 19:02:58,477 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:03:02,231 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/serializers/customer_serializer.py changed, reloading.
+2022-07-23 19:03:03,415 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:03:07,210 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/serializers/customer_serializer.py changed, reloading.
+2022-07-23 19:03:08,946 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:03:11,628 (ERROR) - django.request - Internal Server Error: /store/customers/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 507, in to_representation
+    for field in fields:
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/utils/functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `` is not valid for model `Customer`.
+2022-07-23 19:03:29,599 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:03:32,391 (ERROR) - django.request - Internal Server Error: /store/customers/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 507, in to_representation
+    for field in fields:
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/utils/functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `` is not valid for model `Customer`.
+2022-07-23 19:03:41,492 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/serializers/customer_serializer.py changed, reloading.
+2022-07-23 19:03:43,318 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:05:03,300 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/serializers/customer_serializer.py changed, reloading.
+2022-07-23 19:05:04,911 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:05:10,863 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/serializers/customer_serializer.py changed, reloading.
+2022-07-23 19:05:12,743 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:05:52,904 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/for_test/python/job_task/store/views/customer_view.py", line 20, in me
+    customer = Customer.objects.get(user_id=request.user.id)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+store.models.users_models.Customer.DoesNotExist: Customer matching query does not exist.
+2022-07-23 19:06:56,206 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:06:57,368 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:07:20,973 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:07:22,219 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:07:46,051 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:07:47,224 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:07:50,986 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:07:52,151 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:07:54,903 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:07:56,434 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:08:23,285 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/customer_view.py changed, reloading.
+2022-07-23 19:08:24,965 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:08:27,472 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/customer_view.py changed, reloading.
+2022-07-23 19:08:29,097 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:08:32,372 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/for_test/python/job_task/store/views/customer_view.py", line 21, in me
+    customer = Customer.objects.get(user_id=request.user.id)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+store.models.users_models.Customer.DoesNotExist: Customer matching query does not exist.
+2022-07-23 19:08:52,669 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:08:53,839 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:08:56,404 (WARNING) - django.request - Forbidden: /store/customers/me/
+2022-07-23 19:11:27,382 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/signals/handlers.py changed, reloading.
+2022-07-23 19:11:27,498 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/signals/handlers.py changed, reloading.
+2022-07-23 19:11:29,101 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:11:29,222 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:12:55,925 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/signals/handlers.py changed, reloading.
+2022-07-23 19:12:57,259 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:12:59,117 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/signals/handlers.py changed, reloading.
+2022-07-23 19:13:00,634 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:13:20,127 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:13:21,655 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:13:23,504 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:13:24,927 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:13:29,638 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:13:30,877 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:13:33,548 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:13:34,852 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:13:45,835 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:13:47,144 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:13:56,074 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:13:57,342 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:14:01,175 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:14:03,384 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:14:11,344 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:14:12,754 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:14:14,690 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:14:16,293 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:14:28,740 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/customer_view.py changed, reloading.
+2022-07-23 19:14:30,435 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:14:33,963 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/customer_view.py changed, reloading.
+2022-07-23 19:14:35,517 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:14:38,626 (WARNING) - django.request - Forbidden: /store/customers/
+2022-07-23 19:15:11,313 (ERROR) - django.request - Internal Server Error: /store/customers/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/mo/for_test/python/job_task/store/permissions.py", line 19, in has_permission
+    return bool(request.user and not request.user.type=='C' and not request.user.type=='V')
+AttributeError: 'AnonymousUser' object has no attribute 'type'
+2022-07-23 19:15:30,219 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:15:31,361 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:16:28,343 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:16:29,822 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:16:34,641 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:16:35,726 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:16:57,133 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:16:58,432 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:17:02,027 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:17:03,279 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:17:08,774 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:17:10,070 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:17:16,966 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:17:18,290 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:17:21,976 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:17:23,170 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:17:33,899 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:17:35,424 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:17:36,930 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:17:38,275 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:17:39,640 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:17:41,358 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:17:46,951 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:17:48,048 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:17:51,495 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:17:52,559 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:17:55,467 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:17:56,929 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:18:00,438 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:18:01,648 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:18:07,357 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:18:08,508 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:18:13,376 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:18:14,859 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:18:16,709 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:18:17,922 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:18:24,638 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:18:25,790 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:18:33,730 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:18:35,077 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:18:36,434 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:18:37,875 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:18:49,841 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:18:50,993 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:18:54,434 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:18:55,615 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:18:58,022 (ERROR) - django.request - Internal Server Error: /store/customers/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/mo/for_test/python/job_task/store/permissions.py", line 23, in has_permission
+    if isinstance(request.user,AnonymousUser()):
+TypeError: isinstance() arg 2 must be a type or tuple of types
+2022-07-23 19:19:10,275 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:19:11,497 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:19:14,339 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:19:15,544 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:19:18,251 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 19:19:19,711 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:19:21,657 (WARNING) - django.request - Unauthorized: /store/customers/
+2022-07-23 19:30:02,298 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 19:30:04,907 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 19:31:37,806 (WARNING) - django.request - Bad Request: /auth/users/
+2022-07-23 19:40:18,821 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 19:40:19,160 (WARNING) - django.request - Unauthorized: /auth/users/
+2022-07-23 19:43:19,285 (WARNING) - django.request - Unauthorized: /auth/jwt/create
+2022-07-23 19:51:15,596 (WARNING) - django.request - Unauthorized: /store/items/
+2022-07-23 19:53:51,421 (WARNING) - django.request - Forbidden: /store/items/
+2022-07-23 19:59:06,970 (WARNING) - django.request - Unauthorized: /store/categorys/
+2022-07-23 20:02:04,620 (ERROR) - django.request - Internal Server Error: /store/items/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "vendor_id" violates not-null constraint
+DETAIL:  Failing row contains (1, item1, item-1, item, 11.00, 10, 2022-07-23 20:02:04.372481+00, 1, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/query.py", line 514, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/base.py", line 806, in save
+    self.save_base(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/base.py", line 857, in save_base
+    updated = self._save_table(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/base.py", line 1000, in _save_table
+    results = self._do_insert(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/base.py", line 1041, in _do_insert
+    return manager._insert(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/query.py", line 1434, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1621, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/debug_toolbar/panels/sql/tracking.py", line 230, in execute
+    return self._record(self.cursor.execute, sql, params)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/debug_toolbar/panels/sql/tracking.py", line 154, in _record
+    return method(sql, params)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "vendor_id" violates not-null constraint
+DETAIL:  Failing row contains (1, item1, item-1, item, 11.00, 10, 2022-07-23 20:02:04.372481+00, 1, null).
+
+2022-07-23 20:02:53,052 (WARNING) - django.request - Forbidden: /store/customers/me/
+2022-07-23 20:02:56,875 (WARNING) - django.request - Forbidden: /store/customers/me/
+2022-07-23 20:03:36,559 (ERROR) - django.request - Internal Server Error: /store/items/
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "vendor_id" violates not-null constraint
+DETAIL:  Failing row contains (2, item1, item-1, item, 11.00, 10, 2022-07-23 20:03:36.353152+00, 1, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/rest_framework/serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/query.py", line 514, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/base.py", line 806, in save
+    self.save_base(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/base.py", line 857, in save_base
+    updated = self._save_table(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/base.py", line 1000, in _save_table
+    results = self._do_insert(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/base.py", line 1041, in _do_insert
+    return manager._insert(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/query.py", line 1434, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1621, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/debug_toolbar/panels/sql/tracking.py", line 230, in execute
+    return self._record(self.cursor.execute, sql, params)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/debug_toolbar/panels/sql/tracking.py", line 154, in _record
+    return method(sql, params)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mo/.local/share/virtualenvs/job_task-APY3ONB8/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "vendor_id" violates not-null constraint
+DETAIL:  Failing row contains (2, item1, item-1, item, 11.00, 10, 2022-07-23 20:03:36.353152+00, 1, null).
+
+2022-07-23 20:05:22,436 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:05:26,064 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:05:28,595 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:05:29,707 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:05:32,062 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:05:33,140 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:06:16,140 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:06:17,478 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:06:26,348 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:06:27,680 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:06:32,216 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:06:33,315 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:06:36,766 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:06:38,103 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:06:39,529 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:06:40,434 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:06:41,911 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:06:43,555 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:07:39,147 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:07:40,906 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:07:47,041 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:07:48,139 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:07:51,629 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:07:52,832 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:07:58,586 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:07:59,956 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:08:01,390 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:08:02,603 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:08:11,344 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:08:12,926 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:08:30,203 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 20:08:31,521 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:08:39,425 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 20:08:40,521 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:08:56,699 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/permissions.py changed, reloading.
+2022-07-23 20:08:57,939 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:09:09,033 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:09:10,250 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:09:14,116 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:09:15,547 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:09:19,088 (INFO) - django.utils.autoreload - /home/mo/for_test/python/job_task/store/views/item_views.py changed, reloading.
+2022-07-23 20:09:20,546 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2022-07-23 20:14:41,820 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2022-07-23 20:17:18,891 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2022-07-23 20:17:28,585 (WARNING) - django.request - Method Not Allowed: /store/carts/
